@@ -1,0 +1,22 @@
+{
+  "name": "portafolio",
+  "version": "1.0.0",
+  "description": "Portafolio frontend developer - Abril",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "node-sass -watch --output-style expanded --precision 6 src/assets/scss/style.scss -o dist/css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "HTML",
+    "CSS",
+    "SCSS",
+    "JS",
+    "JSON"
+  ],
+  "author": "Abril Ocampo",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
