@@ -250,33 +250,34 @@ section {
   margin-left: 2rem;
 }
 
-/* line 228, src/assets/scss/style.scss */
+/* line 227, src/assets/scss/style.scss */
+.skills {
+  text-align: center;
+}
+
+/* line 230, src/assets/scss/style.scss */
 .skills .box-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
   gap: 1.5rem;
 }
 
-/* line 231, src/assets/scss/style.scss */
+/* line 233, src/assets/scss/style.scss */
 .skills .box-container .box {
   padding: 2rem;
-  text-align: center;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.7);
   border-radius: .5rem;
   background: #1a1a1a;
+  overflow: hidden;
+  position: relative;
 }
 
-/* line 238, src/assets/scss/style.scss */
-.skills .box-container .box:hover {
-  background: #aaa;
+/* line 242, src/assets/scss/style.scss */
+.skills .box-container .box:hover .content {
+  transform: translateY(0%);
 }
 
-/* line 241, src/assets/scss/style.scss */
-.skills .box-container .box:hover h3 {
-  color: #0d0d0d;
-}
-
-/* line 246, src/assets/scss/style.scss */
+/* line 247, src/assets/scss/style.scss */
 .skills .box-container .box img {
   height: 7rem;
   margin-bottom: 1rem;
@@ -284,19 +285,44 @@ section {
 
 /* line 252, src/assets/scss/style.scss */
 .skills .box-container .box h3 {
+  font-size: 2.5rem;
   color: #fff;
-  font-size: 1.7rem;
-  font-weight: normal;
   text-transform: uppercase;
+  font-weight: normal;
 }
 
-/* line 263, src/assets/scss/style.scss */
+/* line 259, src/assets/scss/style.scss */
+.skills .box-container .box .content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: #aaa;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  transform: translateY(100%);
+  transition: .5s linear;
+}
+
+/* line 274, src/assets/scss/style.scss */
+.skills .box-container .box .content h3 {
+  font-size: 2.5rem;
+  color: #0d0d0d;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/* line 287, src/assets/scss/style.scss */
 .education .box-container {
   display: flex;
   flex-wrap: wrap;
 }
 
-/* line 267, src/assets/scss/style.scss */
+/* line 291, src/assets/scss/style.scss */
 .education .box-container .box {
   flex: 1 1 40rem;
   margin-left: 2rem;
@@ -307,7 +333,7 @@ section {
   position: relative;
 }
 
-/* line 276, src/assets/scss/style.scss */
+/* line 300, src/assets/scss/style.scss */
 .education .box-container .box i {
   height: 4.5rem;
   width: 4.5rem;
@@ -322,7 +348,7 @@ section {
   left: -2.5rem;
 }
 
-/* line 290, src/assets/scss/style.scss */
+/* line 314, src/assets/scss/style.scss */
 .education .box-container .box span {
   font-size: 1.7rem;
   color: #fff;
@@ -331,7 +357,7 @@ section {
   background: #1a1a1a;
 }
 
-/* line 298, src/assets/scss/style.scss */
+/* line 322, src/assets/scss/style.scss */
 .education .box-container .box h3 {
   font-size: 2rem;
   padding: 1rem 0;
@@ -340,40 +366,40 @@ section {
   font-weight: normal;
 }
 
-/* line 306, src/assets/scss/style.scss */
+/* line 330, src/assets/scss/style.scss */
 .education .box-container .box p {
   font-size: 1.5rem;
   color: #aaa;
   line-height: 2;
 }
 
-/* line 315, src/assets/scss/style.scss */
-.portafolio {
+/* line 339, src/assets/scss/style.scss */
+.games {
   text-align: center;
 }
 
-/* line 318, src/assets/scss/style.scss */
-.portafolio .box-container {
+/* line 342, src/assets/scss/style.scss */
+.games .box-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(31rem, 1fr));
   gap: 1.5rem;
   margin-bottom: 2rem;
 }
 
-/* line 322, src/assets/scss/style.scss */
-.portafolio .box-container .box {
+/* line 346, src/assets/scss/style.scss */
+.games .box-container .box {
   height: 30rem;
   overflow: hidden;
   position: relative;
 }
 
-/* line 328, src/assets/scss/style.scss */
-.portafolio .box-container .box:hover .content {
+/* line 352, src/assets/scss/style.scss */
+.games .box-container .box:hover .content {
   transform: translateY(0%);
 }
 
-/* line 334, src/assets/scss/style.scss */
-.portafolio .box-container .box .content {
+/* line 358, src/assets/scss/style.scss */
+.games .box-container .box .content {
   position: absolute;
   top: 0;
   left: 0;
@@ -386,32 +412,32 @@ section {
   justify-content: center;
   padding: 2rem;
   transform: translateY(-100%);
-  transition: .2s linear;
+  transition: .5s linear;
 }
 
-/* line 348, src/assets/scss/style.scss */
-.portafolio .box-container .box .content h3 {
+/* line 372, src/assets/scss/style.scss */
+.games .box-container .box .content h3 {
   font-size: 2.5rem;
   color: #fff;
   text-transform: uppercase;
   font-weight: normal;
 }
 
-/* line 355, src/assets/scss/style.scss */
-.portafolio .box-container .box .content p {
+/* line 379, src/assets/scss/style.scss */
+.games .box-container .box .content p {
   padding: 1rem 0;
   font-size: 1.5rem;
   line-height: 2;
   color: #aaa;
 }
 
-/* line 362, src/assets/scss/style.scss */
-.portafolio .box-container .box .content a {
+/* line 386, src/assets/scss/style.scss */
+.games .box-container .box .content a {
   font-size: 2rem;
   color: #ff55ff;
 }
 
-/* line 366, src/assets/scss/style.scss */
-.portafolio .box-container .box .content a:hover {
+/* line 390, src/assets/scss/style.scss */
+.games .box-container .box .content a:hover {
   color: #fff;
 }
