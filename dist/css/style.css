@@ -374,12 +374,12 @@ section {
 }
 
 /* line 339, src/assets/scss/style.scss */
-.games {
+.portafolio {
   text-align: center;
 }
 
 /* line 342, src/assets/scss/style.scss */
-.games .box-container {
+.portafolio .box-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(31rem, 1fr));
   gap: 1.5rem;
@@ -387,19 +387,19 @@ section {
 }
 
 /* line 346, src/assets/scss/style.scss */
-.games .box-container .box {
+.portafolio .box-container .box {
   height: 30rem;
   overflow: hidden;
   position: relative;
 }
 
 /* line 352, src/assets/scss/style.scss */
-.games .box-container .box:hover .content {
+.portafolio .box-container .box:hover .content {
   transform: translateY(0%);
 }
 
 /* line 358, src/assets/scss/style.scss */
-.games .box-container .box .content {
+.portafolio .box-container .box .content {
   position: absolute;
   top: 0;
   left: 0;
@@ -416,7 +416,7 @@ section {
 }
 
 /* line 372, src/assets/scss/style.scss */
-.games .box-container .box .content h3 {
+.portafolio .box-container .box .content h3 {
   font-size: 2.5rem;
   color: #fff;
   text-transform: uppercase;
@@ -424,7 +424,7 @@ section {
 }
 
 /* line 379, src/assets/scss/style.scss */
-.games .box-container .box .content p {
+.portafolio .box-container .box .content p {
   padding: 1rem 0;
   font-size: 1.5rem;
   line-height: 2;
@@ -432,12 +432,70 @@ section {
 }
 
 /* line 386, src/assets/scss/style.scss */
-.games .box-container .box .content a {
+.portafolio .box-container .box .content a {
   font-size: 2rem;
   color: #ff55ff;
 }
 
 /* line 390, src/assets/scss/style.scss */
+.portafolio .box-container .box .content a:hover {
+  color: #fff;
+}
+
+/* line 400, src/assets/scss/style.scss */
+.games {
+  text-align: center;
+}
+
+/* line 403, src/assets/scss/style.scss */
+.games .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(31rem, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+/* line 408, src/assets/scss/style.scss */
+.games .box-container .box {
+  height: 30rem;
+  overflow: hidden;
+  position: relative;
+}
+
+/* line 414, src/assets/scss/style.scss */
+.games .box-container .box img {
+  border: 1px solid #fff;
+  border-radius: 20px;
+  width: 360px;
+  height: 240px;
+}
+
+/* line 420, src/assets/scss/style.scss */
+.games .box-container .box img:hover {
+  filter: blur(0.4rem);
+  transition: transform 1s;
+  transform: scale(0.9rem);
+}
+
+/* line 427, src/assets/scss/style.scss */
+.games .box-container .box .content {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+/* line 437, src/assets/scss/style.scss */
+.games .box-container .box .content a {
+  font-size: 2rem;
+  color: #ff55ff;
+}
+
+/* line 441, src/assets/scss/style.scss */
 .games .box-container .box .content a:hover {
   color: #fff;
 }
