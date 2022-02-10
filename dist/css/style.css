@@ -445,9 +445,10 @@ section {
 /* line 400, src/assets/scss/style.scss */
 .games {
   text-align: center;
+  padding-top: 0%;
 }
 
-/* line 403, src/assets/scss/style.scss */
+/* line 404, src/assets/scss/style.scss */
 .games .box-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(31rem, 1fr));
@@ -455,14 +456,14 @@ section {
   margin-bottom: 2rem;
 }
 
-/* line 408, src/assets/scss/style.scss */
+/* line 409, src/assets/scss/style.scss */
 .games .box-container .box {
   height: 30rem;
   overflow: hidden;
   position: relative;
 }
 
-/* line 414, src/assets/scss/style.scss */
+/* line 415, src/assets/scss/style.scss */
 .games .box-container .box img {
   border: 1px solid #fff;
   border-radius: 20px;
@@ -470,14 +471,14 @@ section {
   height: 240px;
 }
 
-/* line 420, src/assets/scss/style.scss */
+/* line 421, src/assets/scss/style.scss */
 .games .box-container .box img:hover {
   filter: blur(0.4rem);
   transition: transform 1s;
   transform: scale(0.9);
 }
 
-/* line 427, src/assets/scss/style.scss */
+/* line 428, src/assets/scss/style.scss */
 .games .box-container .box .content {
   position: absolute;
   height: 100%;
@@ -489,13 +490,194 @@ section {
   padding: 1rem;
 }
 
-/* line 437, src/assets/scss/style.scss */
+/* line 438, src/assets/scss/style.scss */
 .games .box-container .box .content a {
   font-size: 2rem;
   color: #ff55ff;
 }
 
-/* line 441, src/assets/scss/style.scss */
+/* line 442, src/assets/scss/style.scss */
 .games .box-container .box .content a:hover {
   color: #fff;
+}
+
+/* line 451, src/assets/scss/style.scss */
+.extra {
+  justify-content: center;
+}
+
+/* line 454, src/assets/scss/style.scss */
+.extra .row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  width: 150rem;
+}
+
+/* line 461, src/assets/scss/style.scss */
+.extra .row .info-container {
+  width: 60rem;
+  background-color: #1a1a1a;
+  border-radius: 12px;
+}
+
+/* line 466, src/assets/scss/style.scss */
+.extra .row .info-container p {
+  font-size: 1.5rem;
+  line-height: 2;
+  text-transform: none;
+  color: #aaa;
+  padding: 1rem 2rem;
+}
+
+/* line 475, src/assets/scss/style.scss */
+.extra .row .box-container {
+  padding: 1rem 0;
+}
+
+/* line 478, src/assets/scss/style.scss */
+.extra .row .box-container .box {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+/* line 483, src/assets/scss/style.scss */
+.extra .row .box-container .box a {
+  font-size: 4rem;
+  padding: 1rem;
+  height: 6rem;
+  width: 6rem;
+  line-height: 4.5rem;
+  border-radius: 50%;
+  background-color: #1a1a1a;
+  color: #fff;
+  text-align: center;
+  margin-right: .3rem;
+}
+
+/* line 495, src/assets/scss/style.scss */
+.extra .row .box-container .box a:hover {
+  background-color: #ff55ff;
+}
+
+/* line 505, src/assets/scss/style.scss */
+.contact .row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+/* line 511, src/assets/scss/style.scss */
+.contact .row .info-container {
+  width: 40rem;
+}
+
+/* line 514, src/assets/scss/style.scss */
+.contact .row .info-container h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  color: #fff;
+  padding-bottom: 1rem;
+}
+
+/* line 521, src/assets/scss/style.scss */
+.contact .row .info-container p {
+  font-size: 1.5rem;
+  line-height: 2;
+  color: #aaa;
+  padding: 1rem 0;
+}
+
+/* line 528, src/assets/scss/style.scss */
+.contact .row .info-container .box-container {
+  padding: 2rem 0;
+}
+
+/* line 531, src/assets/scss/style.scss */
+.contact .row .info-container .box-container .box {
+  display: flex;
+  gap: 2rem;
+  padding: 1rem 0;
+}
+
+/* line 536, src/assets/scss/style.scss */
+.contact .row .info-container .box-container .box i {
+  font-size: 3rem;
+  color: #ff55ff;
+}
+
+/* line 541, src/assets/scss/style.scss */
+.contact .row .info-container .box-container .box h3 {
+  font-size: 2rem;
+  color: #fff;
+}
+
+/* line 550, src/assets/scss/style.scss */
+.contact .row .info-container .share a {
+  font-size: 2rem;
+  height: 4.5rem;
+  width: 4.5rem;
+  line-height: 4.5rem;
+  border-radius: 50%;
+  background: #1a1a1a;
+  color: #fff;
+  text-align: center;
+  margin-right: .3rem;
+}
+
+/* line 561, src/assets/scss/style.scss */
+.contact .row .info-container .share a:hover {
+  background: #ff55ff;
+}
+
+/* line 568, src/assets/scss/style.scss */
+.contact .row form {
+  flex: 1 1 42rem;
+}
+
+/* line 571, src/assets/scss/style.scss */
+.contact .row form .inputBox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* line 576, src/assets/scss/style.scss */
+.contact .row form .inputBox input {
+  width: 49%;
+}
+
+/* line 581, src/assets/scss/style.scss */
+.contact .row form .inputBox input,
+.contact .row form textarea {
+  border-radius: 5rem;
+  padding: 1.2rem 1.8rem;
+  font-size: 1.6rem;
+  color: #fff;
+  text-transform: none;
+  margin: .7rem 0;
+  background: #1a1a1a;
+}
+
+/* line 592, src/assets/scss/style.scss */
+.contact .row form textarea {
+  width: 100%;
+  border-radius: 1rem;
+  resize: none;
+  height: 25rem;
+}
+
+/* line 599, src/assets/scss/style.scss */
+.contact .row form .btn {
+  padding: 1rem 3rem;
+  cursor: pointer;
+}
+
+/* line 603, src/assets/scss/style.scss */
+.contact .row form .btn:hover {
+  background: #fff;
+  color: #ff55ff;
 }
