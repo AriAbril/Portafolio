@@ -474,7 +474,7 @@ section {
 .games .box-container .box img:hover {
   filter: blur(0.4rem);
   transition: transform 1s;
-  transform: scale(0.9rem);
+  transform: scale(0.9);
 }
 
 /* line 427, src/assets/scss/style.scss */
