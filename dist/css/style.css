@@ -681,3 +681,63 @@ section {
   background: #fff;
   color: #ff55ff;
 }
+
+@media (max-width: 1200px) {
+  /* line 617, src/assets/scss/style.scss */
+  html {
+    font-size: 55%;
+  }
+  /* line 621, src/assets/scss/style.scss */
+  section {
+    padding: 3rem 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  /* line 628, src/assets/scss/style.scss */
+  .heading {
+    font-size: 12vw;
+  }
+  /* line 636, src/assets/scss/style.scss */
+  .navbar a i {
+    padding: 0;
+  }
+  /* line 640, src/assets/scss/style.scss */
+  .navbar a span {
+    display: none;
+  }
+  /* line 644, src/assets/scss/style.scss */
+  .navbar a:hover {
+    padding-bottom: 2rem;
+  }
+  /* line 650, src/assets/scss/style.scss */
+  .home {
+    text-align: center;
+    gap: 2rem;
+  }
+  /* line 654, src/assets/scss/style.scss */
+  .home .image img {
+    height: 30rem;
+    width: 30rem;
+  }
+  /* line 661, src/assets/scss/style.scss */
+  .home .content h3 {
+    font-size: 3rem;
+  }
+  /* line 665, src/assets/scss/style.scss */
+  .home .content span {
+    font-size: 2.5rem;
+  }
+  /* line 671, src/assets/scss/style.scss */
+  .contact .row form .inputBox input {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 450px) {
+  /* line 679, src/assets/scss/style.scss */
+  html {
+    font-size: 50%;
+  }
+}
