@@ -54,27 +54,27 @@
         
             </div>
         
-            <form action="">
+            <form id="form" action="mailto:occamppo.3025@gmail.com" method="post" class="form">
         
                 <div class="inputBox">
-                    <input type="text" placeholder="Nombre">
-                    <input type="number" placeholder="Teléfono">
+                    <input name="nombre" required type="text" placeholder="Nombre" id="nombre">
+                    <input name="telefono" type="number" placeholder="Teléfono" id="telefono">
                 </div>
         
                 <div class="inputBox">
-                    <input type="email" placeholder="Email">
-                    <input type="text" placeholder="Asunto">
+                    <input name="email" type="email" required placeholder="Email" id="email">
+                    <input name="asunto" type="text" required placeholder="Asunto" id="asunto">
                 </div>
         
-                <textarea name="" placeholder="Mensaje" id="" cols="30" rows="10"></textarea>
+                <textarea name="mensaje" placeholder="Mensaje" id="msn" cols="30" rows="10"></textarea>
         
-                <input type="submit" value="Enviar" class="btn">
-        
+                <button type="submit" value="Enviar" class="btn">Enviar</button>
+                
             </form>
-
+            <a href="mailto:occamppo.3025@gmail.com" id="correo">mail</a>
         </div>
 
     </section>
-
+    <script src="/src/assets/js/script.js"></script>
 </body>
 </html>
