@@ -9,43 +9,42 @@
   text-decoration: none;
   outline: none;
   border: none;
-  text-transform: capitalize;
 }
 
-/* line 17, src/assets/scss/style.scss */
+/* line 16, src/assets/scss/style.scss */
 html {
   font-size: 62.5%;
   overflow-x: hidden;
 }
 
-/* line 21, src/assets/scss/style.scss */
+/* line 20, src/assets/scss/style.scss */
 html::-webkit-scrollbar {
   width: 1rem;
 }
 
-/* line 25, src/assets/scss/style.scss */
+/* line 24, src/assets/scss/style.scss */
 html::-webkit-scrollbar-track {
   background: #0d0d0d;
 }
 
-/* line 29, src/assets/scss/style.scss */
+/* line 28, src/assets/scss/style.scss */
 html::-webkit-scrollbar-thumb {
   background: #ff55ff;
   border-radius: 5rem;
 }
 
-/* line 35, src/assets/scss/style.scss */
+/* line 34, src/assets/scss/style.scss */
 body {
   background: #0d0d0d;
   padding-bottom: 6.5rem;
 }
 
-/* line 40, src/assets/scss/style.scss */
+/* line 39, src/assets/scss/style.scss */
 section {
   padding: 5rem 9%;
 }
 
-/* line 44, src/assets/scss/style.scss */
+/* line 43, src/assets/scss/style.scss */
 .navbar {
   position: fixed;
   bottom: 0;
@@ -54,6 +53,7 @@ section {
   display: flex;
   z-index: 1000;
   align-items: flex-end;
+  text-transform: capitalize;
 }
 
 /* line 53, src/assets/scss/style.scss */
@@ -91,34 +91,35 @@ section {
   flex-wrap: wrap;
   gap: 4rem;
   min-height: calc(100vh - 6.5rem);
+  text-transform: capitalize;
 }
 
-/* line 87, src/assets/scss/style.scss */
+/* line 88, src/assets/scss/style.scss */
 .home .image {
   flex: 1 1 42rem;
   text-align: center;
 }
 
-/* line 91, src/assets/scss/style.scss */
+/* line 92, src/assets/scss/style.scss */
 .home .image img {
   height: 30rem;
   width: 30rem;
   border-radius: 30% 70% 70% 30%/30% 30% 70% 70%;
 }
 
-/* line 98, src/assets/scss/style.scss */
+/* line 99, src/assets/scss/style.scss */
 .home .content {
   flex: 1 1 42rem;
 }
 
-/* line 101, src/assets/scss/style.scss */
+/* line 102, src/assets/scss/style.scss */
 .home .content h2 {
   color: #fff;
   font-size: 5.5rem;
   padding-bottom: .5rem;
 }
 
-/* line 107, src/assets/scss/style.scss */
+/* line 108, src/assets/scss/style.scss */
 .home .content span {
   font-size: 3rem;
   color: #ff55ff;
@@ -126,7 +127,7 @@ section {
   display: block;
 }
 
-/* line 118, src/assets/scss/style.scss */
+/* line 119, src/assets/scss/style.scss */
 .about .row {
   display: flex;
   align-items: center;
@@ -134,12 +135,12 @@ section {
   gap: 2rem;
 }
 
-/* line 124, src/assets/scss/style.scss */
+/* line 125, src/assets/scss/style.scss */
 .about .row .info-container {
   flex: 1 1 42rem;
 }
 
-/* line 127, src/assets/scss/style.scss */
+/* line 128, src/assets/scss/style.scss */
 .about .row .info-container h1 {
   font-size: 3rem;
   color: #fff;
@@ -147,7 +148,7 @@ section {
   padding-bottom: 1rem;
 }
 
-/* line 134, src/assets/scss/style.scss */
+/* line 135, src/assets/scss/style.scss */
 .about .row .info-container .box-container {
   padding: 1rem 0;
   display: flex;
@@ -155,12 +156,12 @@ section {
   gap: 2rem;
 }
 
-/* line 140, src/assets/scss/style.scss */
+/* line 141, src/assets/scss/style.scss */
 .about .row .info-container .box-container .box {
   flex: 1 1 20rem;
 }
 
-/* line 143, src/assets/scss/style.scss */
+/* line 144, src/assets/scss/style.scss */
 .about .row .info-container .box-container .box h3 {
   font-size: 1.7rem;
   color: #fff;
@@ -168,13 +169,13 @@ section {
   font-weight: normal;
 }
 
-/* line 149, src/assets/scss/style.scss */
+/* line 150, src/assets/scss/style.scss */
 .about .row .info-container .box-container .box h3 span {
   color: #aaa;
   font-weight: lighter;
 }
 
-/* line 158, src/assets/scss/style.scss */
+/* line 159, src/assets/scss/style.scss */
 .about .row .count-container {
   flex: 1 1 42rem;
   display: flex;
@@ -182,7 +183,7 @@ section {
   gap: 2rem;
 }
 
-/* line 164, src/assets/scss/style.scss */
+/* line 165, src/assets/scss/style.scss */
 .about .row .count-container .box {
   flex: 1 1 20rem;
   padding: 3rem 4rem;
@@ -191,19 +192,19 @@ section {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.7);
 }
 
-/* line 171, src/assets/scss/style.scss */
+/* line 172, src/assets/scss/style.scss */
 .about .row .count-container .box h3 {
   font-size: 5rem;
   color: #ff55ff;
 }
 
-/* line 176, src/assets/scss/style.scss */
+/* line 177, src/assets/scss/style.scss */
 .about .row .count-container .box p {
   font-size: 2rem;
   color: #aaa;
 }
 
-/* line 185, src/assets/scss/style.scss */
+/* line 186, src/assets/scss/style.scss */
 .heading {
   text-align: center;
   font-size: 3vw;
@@ -212,13 +213,13 @@ section {
   text-transform: uppercase;
 }
 
-/* line 192, src/assets/scss/style.scss */
+/* line 193, src/assets/scss/style.scss */
 .heading span {
   text-transform: uppercase;
   color: #ff55ff;
 }
 
-/* line 198, src/assets/scss/style.scss */
+/* line 199, src/assets/scss/style.scss */
 .btn {
   display: inline-block;
   margin-top: 1rem;
@@ -231,7 +232,7 @@ section {
   padding-left: 2rem;
 }
 
-/* line 209, src/assets/scss/style.scss */
+/* line 210, src/assets/scss/style.scss */
 .btn i {
   height: 4rem;
   width: 4rem;
@@ -245,24 +246,24 @@ section {
   transition: .2s linear;
 }
 
-/* line 222, src/assets/scss/style.scss */
+/* line 223, src/assets/scss/style.scss */
 .btn:hover i {
   margin-left: 2rem;
 }
 
-/* line 227, src/assets/scss/style.scss */
+/* line 228, src/assets/scss/style.scss */
 .skills {
   text-align: center;
 }
 
-/* line 230, src/assets/scss/style.scss */
+/* line 231, src/assets/scss/style.scss */
 .skills .box-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
   gap: 1.5rem;
 }
 
-/* line 233, src/assets/scss/style.scss */
+/* line 234, src/assets/scss/style.scss */
 .skills .box-container .box {
   padding: 2rem;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.7);
@@ -272,18 +273,18 @@ section {
   position: relative;
 }
 
-/* line 242, src/assets/scss/style.scss */
+/* line 243, src/assets/scss/style.scss */
 .skills .box-container .box:hover .content {
   transform: translateY(0%);
 }
 
-/* line 247, src/assets/scss/style.scss */
+/* line 248, src/assets/scss/style.scss */
 .skills .box-container .box img {
   height: 7rem;
   margin-bottom: 1rem;
 }
 
-/* line 252, src/assets/scss/style.scss */
+/* line 253, src/assets/scss/style.scss */
 .skills .box-container .box h3 {
   font-size: 2.5rem;
   color: #fff;
@@ -291,7 +292,7 @@ section {
   font-weight: normal;
 }
 
-/* line 259, src/assets/scss/style.scss */
+/* line 260, src/assets/scss/style.scss */
 .skills .box-container .box .content {
   position: absolute;
   top: 0;
@@ -308,7 +309,7 @@ section {
   transition: .5s linear;
 }
 
-/* line 274, src/assets/scss/style.scss */
+/* line 275, src/assets/scss/style.scss */
 .skills .box-container .box .content h3 {
   font-size: 2.5rem;
   color: #0d0d0d;
@@ -316,13 +317,13 @@ section {
   font-weight: bold;
 }
 
-/* line 287, src/assets/scss/style.scss */
+/* line 288, src/assets/scss/style.scss */
 .education .box-container {
   display: flex;
   flex-wrap: wrap;
 }
 
-/* line 291, src/assets/scss/style.scss */
+/* line 292, src/assets/scss/style.scss */
 .education .box-container .box {
   flex: 1 1 40rem;
   margin-left: 2rem;
@@ -333,7 +334,7 @@ section {
   position: relative;
 }
 
-/* line 300, src/assets/scss/style.scss */
+/* line 301, src/assets/scss/style.scss */
 .education .box-container .box i {
   height: 4.5rem;
   width: 4.5rem;
@@ -348,7 +349,7 @@ section {
   left: -2.5rem;
 }
 
-/* line 314, src/assets/scss/style.scss */
+/* line 315, src/assets/scss/style.scss */
 .education .box-container .box span {
   font-size: 1.7rem;
   color: #fff;
@@ -357,7 +358,7 @@ section {
   background: #1a1a1a;
 }
 
-/* line 322, src/assets/scss/style.scss */
+/* line 323, src/assets/scss/style.scss */
 .education .box-container .box h3 {
   font-size: 2rem;
   padding: 1rem 0;
@@ -366,19 +367,19 @@ section {
   font-weight: normal;
 }
 
-/* line 330, src/assets/scss/style.scss */
+/* line 331, src/assets/scss/style.scss */
 .education .box-container .box p {
   font-size: 1.5rem;
   color: #aaa;
   line-height: 2;
 }
 
-/* line 339, src/assets/scss/style.scss */
+/* line 340, src/assets/scss/style.scss */
 .portafolio {
   text-align: center;
 }
 
-/* line 342, src/assets/scss/style.scss */
+/* line 343, src/assets/scss/style.scss */
 .portafolio .box-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(31rem, 1fr));
@@ -386,19 +387,19 @@ section {
   margin-bottom: 2rem;
 }
 
-/* line 346, src/assets/scss/style.scss */
+/* line 347, src/assets/scss/style.scss */
 .portafolio .box-container .box {
   height: 30rem;
   overflow: hidden;
   position: relative;
 }
 
-/* line 352, src/assets/scss/style.scss */
+/* line 353, src/assets/scss/style.scss */
 .portafolio .box-container .box:hover .content {
   transform: translateY(0%);
 }
 
-/* line 358, src/assets/scss/style.scss */
+/* line 359, src/assets/scss/style.scss */
 .portafolio .box-container .box .content {
   position: absolute;
   top: 0;
@@ -415,7 +416,7 @@ section {
   transition: .5s linear;
 }
 
-/* line 372, src/assets/scss/style.scss */
+/* line 373, src/assets/scss/style.scss */
 .portafolio .box-container .box .content h3 {
   font-size: 2.5rem;
   color: #fff;
@@ -423,7 +424,7 @@ section {
   font-weight: normal;
 }
 
-/* line 379, src/assets/scss/style.scss */
+/* line 380, src/assets/scss/style.scss */
 .portafolio .box-container .box .content p {
   padding: 1rem 0;
   font-size: 1.5rem;
@@ -431,82 +432,23 @@ section {
   color: #aaa;
 }
 
-/* line 386, src/assets/scss/style.scss */
+/* line 387, src/assets/scss/style.scss */
 .portafolio .box-container .box .content a {
   font-size: 2rem;
   color: #ff55ff;
 }
 
-/* line 390, src/assets/scss/style.scss */
+/* line 391, src/assets/scss/style.scss */
 .portafolio .box-container .box .content a:hover {
   color: #fff;
 }
 
 /* line 400, src/assets/scss/style.scss */
-.games {
-  text-align: center;
-  padding-top: 0%;
-}
-
-/* line 404, src/assets/scss/style.scss */
-.games .box-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(31rem, 1fr));
-  gap: 1.5rem;
-  margin-bottom: 2rem;
-}
-
-/* line 409, src/assets/scss/style.scss */
-.games .box-container .box {
-  height: 30rem;
-  overflow: hidden;
-  position: relative;
-}
-
-/* line 415, src/assets/scss/style.scss */
-.games .box-container .box img {
-  border: 1px solid #fff;
-  border-radius: 20px;
-  width: 360px;
-  height: 240px;
-}
-
-/* line 421, src/assets/scss/style.scss */
-.games .box-container .box img:hover {
-  filter: blur(0.4rem);
-  transition: transform 1s;
-  transform: scale(0.9);
-}
-
-/* line 428, src/assets/scss/style.scss */
-.games .box-container .box .content {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  display: flex;
-  flex-flow: column;
-  align-items: center;
-  justify-content: center;
-  padding: 1rem;
-}
-
-/* line 438, src/assets/scss/style.scss */
-.games .box-container .box .content a {
-  font-size: 2rem;
-  color: #ff55ff;
-}
-
-/* line 442, src/assets/scss/style.scss */
-.games .box-container .box .content a:hover {
-  color: #fff;
-}
-
-/* line 451, src/assets/scss/style.scss */
 .extra {
   justify-content: center;
 }
 
-/* line 454, src/assets/scss/style.scss */
+/* line 403, src/assets/scss/style.scss */
 .extra .row {
   display: flex;
   align-items: center;
@@ -515,14 +457,14 @@ section {
   width: 150rem;
 }
 
-/* line 461, src/assets/scss/style.scss */
+/* line 410, src/assets/scss/style.scss */
 .extra .row .info-container {
   width: 60rem;
   background-color: #1a1a1a;
   border-radius: 12px;
 }
 
-/* line 466, src/assets/scss/style.scss */
+/* line 415, src/assets/scss/style.scss */
 .extra .row .info-container p {
   font-size: 1.5rem;
   line-height: 2;
@@ -531,19 +473,19 @@ section {
   padding: 1rem 2rem;
 }
 
-/* line 475, src/assets/scss/style.scss */
+/* line 424, src/assets/scss/style.scss */
 .extra .row .box-container {
   padding: 1rem 0;
 }
 
-/* line 478, src/assets/scss/style.scss */
+/* line 427, src/assets/scss/style.scss */
 .extra .row .box-container .box {
   display: flex;
   gap: 1rem;
   padding: 1rem;
 }
 
-/* line 483, src/assets/scss/style.scss */
+/* line 432, src/assets/scss/style.scss */
 .extra .row .box-container .box a {
   font-size: 4rem;
   padding: 1rem;
@@ -557,12 +499,12 @@ section {
   margin-right: .3rem;
 }
 
-/* line 495, src/assets/scss/style.scss */
+/* line 444, src/assets/scss/style.scss */
 .extra .row .box-container .box a:hover {
   background-color: #ff55ff;
 }
 
-/* line 505, src/assets/scss/style.scss */
+/* line 454, src/assets/scss/style.scss */
 .contact .row {
   display: flex;
   align-items: center;
@@ -570,20 +512,19 @@ section {
   gap: 2rem;
 }
 
-/* line 511, src/assets/scss/style.scss */
+/* line 460, src/assets/scss/style.scss */
 .contact .row .info-container {
   width: 40rem;
 }
 
-/* line 514, src/assets/scss/style.scss */
+/* line 463, src/assets/scss/style.scss */
 .contact .row .info-container h1 {
   font-size: 3rem;
-  text-transform: uppercase;
   color: #fff;
   padding-bottom: 1rem;
 }
 
-/* line 521, src/assets/scss/style.scss */
+/* line 470, src/assets/scss/style.scss */
 .contact .row .info-container p {
   font-size: 1.5rem;
   line-height: 2;
@@ -591,31 +532,31 @@ section {
   padding: 1rem 0;
 }
 
-/* line 528, src/assets/scss/style.scss */
+/* line 477, src/assets/scss/style.scss */
 .contact .row .info-container .box-container {
   padding: 2rem 0;
 }
 
-/* line 531, src/assets/scss/style.scss */
+/* line 480, src/assets/scss/style.scss */
 .contact .row .info-container .box-container .box {
   display: flex;
   gap: 2rem;
   padding: 1rem 0;
 }
 
-/* line 536, src/assets/scss/style.scss */
+/* line 485, src/assets/scss/style.scss */
 .contact .row .info-container .box-container .box i {
   font-size: 3rem;
   color: #ff55ff;
 }
 
-/* line 541, src/assets/scss/style.scss */
+/* line 490, src/assets/scss/style.scss */
 .contact .row .info-container .box-container .box h3 {
   font-size: 2rem;
   color: #fff;
 }
 
-/* line 550, src/assets/scss/style.scss */
+/* line 499, src/assets/scss/style.scss */
 .contact .row .info-container .share a {
   font-size: 2rem;
   height: 4.5rem;
@@ -628,29 +569,29 @@ section {
   margin-right: .3rem;
 }
 
-/* line 561, src/assets/scss/style.scss */
+/* line 510, src/assets/scss/style.scss */
 .contact .row .info-container .share a:hover {
   background: #ff55ff;
 }
 
-/* line 568, src/assets/scss/style.scss */
+/* line 517, src/assets/scss/style.scss */
 .contact .row form {
   flex: 1 1 42rem;
 }
 
-/* line 571, src/assets/scss/style.scss */
+/* line 520, src/assets/scss/style.scss */
 .contact .row form .inputBox {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
-/* line 576, src/assets/scss/style.scss */
+/* line 525, src/assets/scss/style.scss */
 .contact .row form .inputBox input {
   width: 49%;
 }
 
-/* line 581, src/assets/scss/style.scss */
+/* line 530, src/assets/scss/style.scss */
 .contact .row form .inputBox input,
 .contact .row form textarea {
   border-radius: 5rem;
@@ -662,7 +603,7 @@ section {
   background: #1a1a1a;
 }
 
-/* line 592, src/assets/scss/style.scss */
+/* line 541, src/assets/scss/style.scss */
 .contact .row form textarea {
   width: 100%;
   border-radius: 1rem;
@@ -670,65 +611,65 @@ section {
   height: 25rem;
 }
 
-/* line 599, src/assets/scss/style.scss */
+/* line 548, src/assets/scss/style.scss */
 .contact .row form .btn {
   padding: 1rem 3rem;
   cursor: pointer;
 }
 
-/* line 603, src/assets/scss/style.scss */
+/* line 552, src/assets/scss/style.scss */
 .contact .row form .btn:hover {
   background: #fff;
   color: #ff55ff;
 }
 
 @media (max-width: 1200px) {
-  /* line 617, src/assets/scss/style.scss */
+  /* line 566, src/assets/scss/style.scss */
   html {
     font-size: 55%;
   }
-  /* line 621, src/assets/scss/style.scss */
+  /* line 570, src/assets/scss/style.scss */
   section {
     padding: 3rem 2rem;
   }
 }
 
 @media (max-width: 768px) {
-  /* line 628, src/assets/scss/style.scss */
+  /* line 577, src/assets/scss/style.scss */
   .heading {
     font-size: 12vw;
   }
-  /* line 636, src/assets/scss/style.scss */
+  /* line 585, src/assets/scss/style.scss */
   .navbar a i {
     padding: 0;
   }
-  /* line 640, src/assets/scss/style.scss */
+  /* line 589, src/assets/scss/style.scss */
   .navbar a span {
     display: none;
   }
-  /* line 644, src/assets/scss/style.scss */
+  /* line 593, src/assets/scss/style.scss */
   .navbar a:hover {
     padding-bottom: 2rem;
   }
-  /* line 650, src/assets/scss/style.scss */
+  /* line 599, src/assets/scss/style.scss */
   .home {
     text-align: center;
     gap: 2rem;
   }
-  /* line 654, src/assets/scss/style.scss */
+  /* line 603, src/assets/scss/style.scss */
   .home .image img {
     height: 30rem;
     width: 30rem;
   }
-  /* line 661, src/assets/scss/style.scss */
+  /* line 610, src/assets/scss/style.scss */
   .home .content h3 {
     font-size: 3rem;
   }
-  /* line 665, src/assets/scss/style.scss */
+  /* line 614, src/assets/scss/style.scss */
   .home .content span {
     font-size: 2.5rem;
   }
-  /* line 671, src/assets/scss/style.scss */
+  /* line 620, src/assets/scss/style.scss */
   .contact .row form .inputBox input {
     width: 100%;
     margin-bottom: 1rem;
@@ -736,7 +677,7 @@ section {
 }
 
 @media (max-width: 450px) {
-  /* line 679, src/assets/scss/style.scss */
+  /* line 628, src/assets/scss/style.scss */
   html {
     font-size: 50%;
   }
